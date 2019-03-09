@@ -1,0 +1,18 @@
+{
+  "compatibleVersion": 3,
+  "bundleVersion": 1,
+  "icon": "icon.png",
+  "commands": [
+    {
+      "name": "mostReadable",
+      "identifier": "mostreadable.my-command-identifier",
+      "script": "./my-command.js"
+    }
+  ],
+  "menu": {
+    "title": "mostReadable",
+    "items": [
+      "mostreadable.my-command-identifier"
+    ]
+  }
+}
